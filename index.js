@@ -35,5 +35,5 @@ app.get("/bfhl", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(Server Port : 8080);
+  console.log(`Server port : ${port}`);
 });
